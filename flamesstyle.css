@@ -1,0 +1,37 @@
+.center{
+position:absolute;
+top:34%;
+width:100%;
+text-align:center;
+font-size:18px;
+}
+
+#divyurname{
+float:left;
+background-color:#CCC;
+}
+
+#divpartnername{
+float:right;
+background-color:#DDD;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("backgroundone.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+}
+footer{
+ position: relative;
+}
+.container{
+    min-height:100%;
+    margin-bottom: -40px; /* Put negative height of the footer here */
+    padding-bottom: 40px; /* Put height of the footer here. Needed for higher than screen height pages */
+}
